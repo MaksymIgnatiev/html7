@@ -1,0 +1,10 @@
+alert
+log
+function
+if
+else
+var
+let
+const
+loop
+f

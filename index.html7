@@ -1,0 +1,24 @@
+<!DOCTYPE html7>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>HTML7 + Vite</title>
+</head>
+<body 
+	style="
+		font-size: 2rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 100dvw;
+		height: 100dvh;
+		"
+>
+	<h1>HTML7</h1>
+	<p style="color: #0a0; text-align: center">HTML7 - is a transpiler that transpiles magic HTRL (HyperText Reactive Language) into vanila HTML/CSS/JS</p>
+	<script>
+		console.log("%cHello world from HTML7 transpiler!", "color: green; font-size: 2rem; font-weight: 500")
+	</script>
+</body>
+</html>

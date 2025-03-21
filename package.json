@@ -1,0 +1,21 @@
+{
+  "name": "html7",
+  "module": "src/index.ts",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "vite": "^6.2.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5.8.2"
+  },
+  "scripts": {
+    "": "1. Run `bun run transpile` to transpile the HTML7 -> HTML. 2. Run `bun run bundle` to get the library JS code (if needed) inside destination directory. 3. Run `bun run dev` to define vite config file and run in development mode (watch files in destination directory and entry point of HTML7 for changes, and update everything on a fly. No need for vscode tasks or nodemon) ",
+    "define:vite": "bun run src/util/define-vite-config.ts",
+    "transpile": "bun run src/index.ts",
+    "bundle": "vite build",
+	" ": "`bun run dev` currently doesn't work for some issues with vite",
+    "dev": "bun run --silent define:vite --quiet && vite"
+  },
+  "type": "module",
+  "private": true
+}

@@ -1,0 +1,10 @@
+{
+	"outDir": "dist-html7",
+	"minify": false,
+	"js": {
+		"combine": true
+	},
+	"css": {
+		"combine": true
+	}
+}

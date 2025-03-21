@@ -1,0 +1,4 @@
+<did class="main-app"></div>
+%%minify:<script src="react-html.umd.js"></script>
+%%!minify:<script src="react-html.js"></script>
+<script src="entry.js"></script>
