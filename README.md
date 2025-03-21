@@ -4,7 +4,7 @@ HTML7 is an improved version of regular HTML that browser renders, but has synta
 
 
 > [!Warning]
-> HTML7 currently cupports only all valid HTML5 tags. No magic for now!
+> HTML7 currently supports only all valid HTML5 tags. No magic for now!
 
 
 [tl;dr](#how-to-start), bring me to the HTML7 itself.  
